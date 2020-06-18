@@ -1,0 +1,10 @@
+    //锚点并发送trace
+    setTimeout(() => {
+      const icliadtype = this.$query.icliadtype;
+      if (icliadtype&&icliadtype=='4') {
+        trace.ctsite_chitu_tag({
+          opt_icliadtype: icliadtype || ""
+        })
+        common.goToBuy();
+      }
+    }, 500);

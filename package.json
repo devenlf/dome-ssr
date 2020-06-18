@@ -1,0 +1,29 @@
+{
+  "name": "dome-ssr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "conf-dev": "nodemon Client/server"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2"
+  },
+  "dependencies": {
+    "ali-oss": "^6.8.0",
+    "art-template": "^4.13.2",
+    "co": "^4.6.0",
+    "koa": "^2.7.0",
+    "koa-art-template": "^1.1.1",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-formidable": "^1.1.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "nodemon": "^1.19.1",
+    "redis": "^2.8.0"
+  }
+}
